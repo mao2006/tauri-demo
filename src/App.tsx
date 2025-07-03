@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
+
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <main className="container">
-      <div>hello</div>
+      <div className="underline">hello</div>
       <h1>Welcome to Tauri + React</h1>
 
       <div className="row">
